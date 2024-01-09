@@ -1,6 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { Location, NgIf, TitleCasePipe } from "@angular/common";
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { Component, OnInit } from '@angular/core';
+import { Location } from "@angular/common";
 import { Hero } from "../hero";
 import { HeroService } from "../hero.service";
 import { ActivatedRoute } from "@angular/router";
