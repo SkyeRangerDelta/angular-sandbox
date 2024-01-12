@@ -1,0 +1,5 @@
+<div>
+  <label for="file-input">Choose a file (PDF, JPEG, PNG, DOCX)</label><br>
+  <input (change)="this.onFileSelected($event)" type="file" id="file-input" accept=".pdf,.jpeg,.png,.docx"><br>
+  <button (click)="this.upload()" type="button" class="mat-button-base">Upload</button>
+</div>
